@@ -2,7 +2,7 @@ package Exercicio_Apostila_Java_2007;
 
 import java.util.Scanner;
 
-public class Exc8 {
+public class Exc08 {
 	
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Exc8 {
 		System.out.print("Informe a quantidade de votos nulos: ");
 		double votosNulos = scn.nextDouble();
 		
-		System.out.print("Informe a quantidade de votos v·lidos: ");
+		System.out.print("Informe a quantidade de votos v√°lidos: ");
 		double votosValidos = scn.nextDouble();
 		
 		double VB = votosBrancos/eleitores * 100;
@@ -24,7 +24,7 @@ public class Exc8 {
 		double VV = votosValidos/eleitores * 100;
 		
 		
-		System.out.println("A relaÁ„o de votos brancos, nulos e v·lidos, em relaÁ„o ao total de eleitores, È, respectivamente, de " + VB + "%, " + VN + "%, " + VV + "%");
+		System.out.println("A rela√ß√£o de votos brancos, nulos e v√°lidos, em rela√ß√£o ao total de eleitores, √©, respectivamente, de " + VB + "%, " + VN + "%, " + VV + "%");
 		
 		scn.close();
 	}
