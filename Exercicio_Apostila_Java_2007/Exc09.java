@@ -1,7 +1,7 @@
 package Exercicio_Apostila_Java_2007;
 import java.util.Scanner;
 
-public class Exc9 {
+public class Exc09 {
 	
 	double reajuste;
 
