@@ -8,7 +8,7 @@ public class Exc9 {
 	public static void main(String[] args) {
 	Scanner scn = new Scanner(System.in);
 	
-	System.out.print("Informe seu sal·rio atual (R$): ");
+	System.out.print("Informe seu sal√°rio atual (R$): ");
 	double salarioAtual = scn.nextDouble();
 	
 	System.out.print("Informe o valor do reajuste em %: ");
@@ -18,7 +18,7 @@ public class Exc9 {
 	
 	double calcReajuste = salarioAtual + salarioAtual*reajustePercent; 
 	
-	System.out.println("Seu s·lario reajustado ser· de " + calcReajuste + " reais.");
+	System.out.println("Seu s√°lario reajustado ser√° de " + calcReajuste + " reais.");
 	
 	scn.close(); 
 	}
